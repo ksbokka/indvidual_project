@@ -8,6 +8,15 @@ The Jupyter Notebook explains how abnormal lab results are identified and determ
 
 # Backend Data Aggregation Component
 
+## API User Guide
+* Get Dataset:
+* Local Endpoint: http://localhost:8080/fhir/obsevation?lonicCode=72514-3
+* Herkou Endpoint: https://kbokka3-cs6440-indvidualprojec.herokuapp.com/fhir/obsevation?lonicCode=6299-2
+* Input Query Parameters
+* * loniccode - the associated lonic code the user wants to obtain lab results for analysis. (String)
+* Output (String)
+* Json List as shown in `response.txt`
+
 ## Local Deployment
 ### Installation
 Build Jar File: `./gradlew clean build`
