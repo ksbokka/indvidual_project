@@ -22,8 +22,8 @@ If you just want to view the analysis quickly for the preconfigured lonic code y
 
 ## Local Deployment
 ### Installation
-Build Jar File: `./gradlew clean build`
-Build Docker Image: `docker build . -t data_agg`
+* Build Jar File: `./gradlew clean build`
+* Build Docker Image: `docker build . -t data_agg`
 
 ### Running Module
 Running Locally: `docker run -p 8080:8080 data_agg`
